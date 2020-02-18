@@ -11,6 +11,8 @@ function start () {
   two();
 
   three();
+
+  makeVisible();
 }
 
 function one () {
@@ -36,3 +38,9 @@ function three () {
 }
 
 // CREATE FUNCTION makeVisible HERE
+function makeVisible () {
+  //Used querySelector as there is only one item in class array
+  const invisible = document.querySelector(".invisible");
+
+  invisible.classList.add("visible");
+}
