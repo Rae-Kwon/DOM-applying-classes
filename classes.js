@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', start)
 
 function start () {
   // The first example is done for you. Uncomment the line below and reload the browser.
-  one()
+  one();
     
   // Your turn! Create a new function called `two`, then call it from here.
   two();
@@ -17,10 +17,10 @@ function start () {
 
 function one () {
   // First, we have to find the element:
-  const one = document.getElementById('one')
+  const one = document.getElementById('one');
 
   // Next, we apply a new CSS class to it:
-  one.classList.add('blue')
+  one.classList.add('blue');
 }
 
 // CREATE FUNCTION two HERE
