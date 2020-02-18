@@ -32,7 +32,7 @@ function two () {
 function three () {
   const three = document.getElementById("three");
 
-  three.classList.add("three");
+  three.classList.add("red");
 }
 
 // CREATE FUNCTION makeVisible HERE
